@@ -7,6 +7,9 @@
     <title>Portfolio</title>
 
     <!-- Css Files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,13 +17,51 @@
     <nav class="navbar">
         <h1 class="logo"> Vivek Kumar</h1>
         <ul class="nav-links-container"> 
-            <li class="nav-link"><a href="#" class="links">home</a></li>
+            <li class="nav-link"><a href="home-section" class="links active">home</a></li>
             <li class="nav-link"><a href="#" class="links">projects</a></li>
-            <li class="nav-link"><a href="#" class="links">about</a></li>
+            <li class="nav-link"><a href="about-section" class="links">about</a></li>
             <li class="nav-link"><a href="#" class="links">contact</a></li>
 
         </ul>
 
     </nav>
+
+    <!-- header-->
+    <header class="header" id="home-section">
+        <div class="content">
+            <h1 class="header-heading">Hey, I am <span class="brand-name">Vivek <span> Kumar</span></span></h1>
+            <a href="#" class="btn">Hire</a>
+
+        </div>
+
+        <div class="header-img-container">
+          <div class="circle"></div>
+          <img src="img/vklogo.png" class="header-img" alt="">
+
+        </div>
+      
+    </header>
+
+    <!-- about section-->
+  <section id="about-section">
+    <h1 class="heading">about me</h1>
+         <div class="about-container">
+            <div class="image-container">
+             <div class="square"></div>
+             <img src="img/vklogo.png" alt="">
+             <div class="social-links">
+                <a href="#"><img src="img/github.png" class="social-img" alt=""></a>
+                <a href="#"><img src="img/insta.png" class="social-img" alt=""></a>
+                <a href="#"><img src="img/fb.png" class="social-img" alt=""></a>
+                <a href="#"><img src="img/twitter.png" class="social-img" alt=""></a>
+                <a href="#"><img src="img/linked.png" class="social-img" alt=""></a>
+
+             </div>
+
+            </div>
+
+         </div>
+  </section>
+
 </body>
 </html>
