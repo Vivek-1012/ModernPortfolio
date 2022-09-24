@@ -65,4 +65,29 @@ let projectData = [
     },
 ]
 
-// creating project cards in frontend
+// creating project cards in frontend //
+
+
+ const createProjectCards = (data) => {
+    let projectContainer = document.querySelector('.project-container');
+    projectContainer.innerHTML += `
+    <div class="project-card" data-tags="${data.tags}">
+    <div class="project-wrapper">
+        <div class="project-thumbnail">
+           <img src="img/close (1).png" class="close-btn" alt="">
+           <img src="${data.image}" class="project-img" alt="">
+           <span class="tags">${data.tags}</span>
+        </div>
+        <div class="project-body">
+          <h1 class="prroject-name">${data.name}</h1>
+          <p class="project-detail"> ${data.detail} </p>
+          <a href="${data.github}" class="btn">Github</a>
+          <a href="${data.live}" class="btn">See live</a>
+        </div>
+    </div>
+    
+    `;
+ }
+
+ projectData.forEach(data => createProjectCards(data))
+

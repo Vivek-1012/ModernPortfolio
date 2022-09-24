@@ -15,16 +15,21 @@
 <body>
 <!-- navbar-->
     <nav class="navbar">
-        <h1 class="logo"> Vivek Kumar</h1>
+        <h1 class="logo">Vivek Kumar</h1>
         <ul class="nav-links-container"> 
-            <li class="nav-link"><a href="home-section" class="links active">home</a></li>
-            <li class="nav-link"><a href="#" class="links">projects</a></li>
-            <li class="nav-link"><a href="about-section" class="links">about</a></li>
-            <li class="nav-link"><a href="#" class="links">contact</a></li>
+            <li class="nav-link"><a href="#home-section" class="links active">home</a></li>
+            <li class="nav-link"><a href="#project-section" class="links">projects</a></li>
+            <li class="nav-link"><a href="#about-section" class="links">about</a></li>
+            <li class="nav-link"><a href="#contact-section" class="links">contact</a></li>
 
         </ul>
-
-    </nav>
+ <!--toggle btn-->
+    <div class="toggle-btn ">
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+   </nav>
 
     <!-- header-->
     <header class="header" id="home-section">
@@ -36,7 +41,7 @@
 
         <div class="header-img-container">
           <div class="circle"></div>
-          <img src="img/vklogo.png" class="header-img" alt="">
+          <img src="img/DSC_0593-removebg-preview.new.png" class="header-img" alt="">
 
         </div>
       
@@ -45,10 +50,11 @@
     <!-- about section-->
   <section id="about-section">
     <h1 class="heading">about me</h1>
-         <div class="about-container">
+  <!-- about -->
+    <div class="about-container">
             <div class="image-container">
              <div class="square"></div>
-             <img src="img/vklogo.png" alt="">
+             <img src="img/DSC_0593.new.jpg" class="about-img" alt="">
              <div class="social-links">
                 <a href="#"><img src="img/github.png" class="social-img" alt=""></a>
                 <a href="#"><img src="img/insta.png" class="social-img" alt=""></a>
@@ -59,9 +65,117 @@
              </div>
 
             </div>
+            <!-- info part-->
+           <div class="info">
+            <p>write  gud information</p>
+            <a href="#" class="btn">Hire me</a>
+            <a href="#" class="btn">download CV</a>
+       </div>
+         </div>
+         <!-- skills part  -->
+         <h2 class="sub-heading">skills</h2>
+         <div class="skills">
+           <p class="skill-name">HTML</p>
+           <p class="skill-name">CSS</p>
+           <p class="skill-name">JavaScript</p>
+           <p class="skill-name">React.js</p>
+           <p class="skill-name">Node.js</p>
+           <!-- <p class="skill-name">SQL</p>
+            <p class="skill-name">Apis</p>
+           <p class="skill-name">Java</p>
+           <p class="skill-name">Django</p>
+           <p class="skill-name">Firebase</p>
+           <p class="skill-name">Frontend Develpoment</p>
+           <p class="skill-name">Fullstack Development</p> -->
 
          </div>
-  </section>
 
+         <!--time line-->
+         <h2 class="sub-heading">education and experience</h2>
+         <div class="timeline-container">
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2000-2002</h1>
+                    <p class="card-body">write something</p>
+                </div>
+            </div>
+            <div class="card-container">
+            <div class="card">   
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-body">write something</p>
+              </div>
+            </div>
+            <div class="card-container">
+            <div class="card">
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-body">write something</p>
+            </div>
+           </div>
+            <div class="card-container">
+              <div class="card">
+              <h1 class="card-title">2000-2002</h1>
+              <p class="card-body">write something</p>
+          </div>
+      </div>
+            <div class="card-container">
+            <div class="card">
+            <h1 class="card-title">2000-2002</h1>
+            <p class="card-body">write something</p>
+        </div>
+    </div>
+        <div class="card-container">
+          <div class="card">
+          <h1 class="card-title">2000-2002</h1>
+          <p class="card-body">write something</p>
+      </div>
+  </div>
+ </div>
+  </section>
+   <!-- project section-->
+   <section id="project-section">
+    <h1 class="heading"> Project</h1>
+     <div class="filter">
+        <button class="btn filter-btn active">all</button>
+        <button class="btn filter-btn">css</button>
+        <button class="btn filter-btn">javascript</button>
+        <button class="btn filter-btn">fullstack</button>
+    </div>
+
+    <!--  projects cards  -->
+    <div class="project-container"> 
+    <!-- <div class="project-card  ">
+        <div class="project-wrapper">
+            <div class="project-thumbnail">
+               <img src="img/close (1).png" class="close-btn" alt="">
+               <img src="img/project-1.png" class="project-img" alt="">
+               <span class="tags">#javascript #css #fullstack</span>
+            </div>
+            <div class="project-body">
+              <h1 class="prroject-name">project 1</h1>
+              <p class="project-detail"> Write about project details </p>
+              <a href="#" class="btn">Github</a>
+              <a href="#" class="btn">See live</a>
+            </div>
+        </div> -->
+     </div>
+     </div>
+
+   </section>
+
+   <!-- contact section-->
+
+
+   <section id="contact-section">
+    <h1 class="heading">contact</h1>
+     <div class="form">
+      <input type="text" placeholder="name">
+      <input type="email" placeholder="email"> 
+      <input type="text" placeholder="subject">
+      <textarea placeholder="message"></textarea>
+      <button class="contact-btn" >contact</button>
+     </div>
+   </section>
 </body>
+<script src="./project.js"></script>
+<script src="./app.js"></script>
 </html>
