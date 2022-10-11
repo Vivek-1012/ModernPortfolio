@@ -1,19 +1,19 @@
 let projectData = [
     {
         image: 'img/project-1.png',
-        name: 'project one',
+        name: 'Music Player',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
-        live: '#',
-        tags: '#javascript, #fullstack, #css'
+        live: 'https://vkmusicplayer.netlify.app/',
+        tags: '#javascript, #fullstack, #css, #major project'
     },
     {
         image: 'img/project-2.png',
-        name: 'project two',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript, #css'
+        name: 'Insta Clone',
+        detail: 'Check out insta clone ',
+        github: 'https://github.com/Vivek-1012/socialapp.git',
+        live: 'https://insta-clone-vk-app.netlify.app',
+        tags: '#javascript, #css, #major project'
     },
     {
         image: 'img/project-3.png',
@@ -21,48 +21,64 @@ let projectData = [
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
-        tags: '#javascript'
+        tags: '#javascript, #minorproject'
     },
     {
-        image: 'img/project-4.png',
-        name: 'project four',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#fullstack, #css'
+        image: 'img/repeljs11.png',
+        name: 'Quiz indian legends',
+        detail: 'Test your knowledge about Indian Legends(worked with repelJS) .',
+        github: 'https://github.com/Vivek-1012/IndianLegendsQuiz.git',
+        live: 'https://replit.com/@Vivek-1012/indianLegends?v=1',
+        tags: '#fullstack, #css, #minorproject'
     },
     {
         image: 'img/project-5.png',
-        name: 'project five',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#fullstack'
+        name: 'Pirates Talk',
+        detail: '"Are you a fan of Pirates? Use the translator to convert your text from English to Pirates speak language.',
+        github: 'https://github.com/Vivek-1012/pirates-speak.git',
+        live: 'https://vivek-piratestalks.netlify.app',
+        tags: '#fullstack, #minorproject'
     },
     {
         image: 'img/project-6.png',
-        name: 'project six',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#css'
+        name: 'Palindrome Birthday',
+        detail: 'Is your Birthday a Palindrome number, well check it!!',
+        github: 'https://github.com/Vivek-1012/birthdaypalindrome.git',
+        live: 'https://vivek-birthdaypalindrome.netlify.app',
+        tags: '#css, #minorproject'
     },
     {
         image: 'img/project-7.png',
-        name: 'project seven',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript'
+        name: 'Fun with Triangles',
+        detail: 'Test your triangle knowledge , have fun.',
+        github: 'https://github.com/Vivek-1012/FunWithTriangles',
+        live: 'https://vivek-funwithtriangle.netlify.app',
+        tags: '#javascript, #minorproject'
     },
     {
         image: 'img/project-8.png',
-        name: 'project eight',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#css'
+        name: 'Cash Manager',
+        detail: 'Need help to manage your cash, well this will work.',
+        github: 'https://github.com/Vivek-1012/Cash-Register-Manager.git',
+        live: 'https://vivek-cashmanager.netlify.app',
+        tags: '#css, #minorproject'
     },
+    {
+        image: 'img/project-7.png',
+        name: 'Stock profit and loss',
+        detail: 'Are you investing in stock market? know about your profit or loss',
+        github: 'https://github.com/Vivek-1012/stock-ProfitorLoss.git',
+        live: 'https://vivek-stockprofitloss.netlify.app',
+        tags: '#javascript, #minorproject'
+    },
+    {
+        image: 'img/project-8.png',
+        name: 'Fun with Animals',
+        detail: 'Test your self , if you really know about Animals.',
+        github: 'https://github.com/Vivek-1012/funWithAnimals-.git',
+        live: 'https://n6jt2c.csb.app/',
+        tags: '#css, #reactjs'
+    }
 ]
 
 // creating project cards in frontend //

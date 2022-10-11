@@ -635,6 +635,14 @@ textarea {
 }
 
 
+.btn:hover{
+     background: #9f5264;
+}
+#dobtn:active{
+      background-color:hotpink;
+}
+
+
 @media(max-width: 750px){
     .toggle-btn{
         position: absolute;
