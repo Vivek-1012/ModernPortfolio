@@ -77,7 +77,7 @@ let projectData = [
         detail: 'Test your self , if you really know about Animals.',
         github: 'https://github.com/Vivek-1012/funWithAnimals-.git',
         live: 'https://n6jt2c.csb.app/',
-        tags: '#css, #reactjs'
+        tags: '#css, #reactjs '
     }
 ]
 
