@@ -1,16 +1,16 @@
 let projectData = [
     {
-        image: 'img/project-1.png',
+        image: 'img/music1.jpg',
         name: 'Music Player',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        detail: 'Music player with pure HTML, CSS and JS.It has play/pause animation, disk rotating animation and pulse animation, working forward/backward buttons with seek-able song slider ',
         github: '#',
         live: 'https://vkmusicplayer.netlify.app/',
         tags: '#javascript, #fullstack, #css, #major project'
     },
     {
-        image: 'img/project-2.png',
+        image: 'img/insta1.png',
         name: 'Insta Clone',
-        detail: 'Check out insta clone ',
+        detail: 'Check out insta clone, we can like image ,copy URL, pop up image on click ',
         github: 'https://github.com/Vivek-1012/socialapp.git',
         live: 'https://insta-clone-vk-app.netlify.app',
         tags: '#javascript, #css, #major project'
@@ -24,7 +24,7 @@ let projectData = [
         tags: '#javascript, #minorproject'
     },
     {
-        image: 'img/repeljs11.png',
+        image: 'img/code.jpg',
         name: 'Quiz indian legends',
         detail: 'Test your knowledge about Indian Legends(worked with repelJS) .',
         github: 'https://github.com/Vivek-1012/IndianLegendsQuiz.git',
@@ -32,12 +32,12 @@ let projectData = [
         tags: '#fullstack, #css, #minorproject'
     },
     {
-        image: 'img/project-5.png',
+        image: 'img/pirates.jpg',
         name: 'Pirates Talk',
         detail: '"Are you a fan of Pirates? Use the translator to convert your text from English to Pirates speak language.',
         github: 'https://github.com/Vivek-1012/pirates-speak.git',
         live: 'https://vivek-piratestalks.netlify.app',
-        tags: '#fullstack, #minorproject'
+        tags: '#fullstack, #minorproject, #api'
     },
     {
         image: 'img/project-6.png',
