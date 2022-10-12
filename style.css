@@ -763,3 +763,8 @@ textarea {
 
 }
 
+#banner {
+    height: 50vh;
+    width: 50vh;
+}
+
