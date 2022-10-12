@@ -35,13 +35,13 @@
     <header class="header" id="home-section">
         <div class="content">
             <h1 class="header-heading">Hey, I am <span class="brand-name">Vivek <span> Kumar</span></span></h1>
-            <a href="#" class="btn">Hire</a>
+            <a href="#contact-section" class="btn">Hire</a>
 
         </div>
 
         <div class="header-img-container">
           <div class="circle"></div>
-          <img src="img/DSC_0593-removebg-preview.new.png" class="header-img" alt="">
+          <img src="img/p1.avif" class="header-img" alt="">
 
         </div>
       
@@ -71,7 +71,7 @@
             <br>
               I have worked with Techonologies like HTML, CSS, JavaScript, ReactJS , Tools like GitHub and Online Hosting tools like Netlify. I am hard-working and punctual and will not at all take too much time to learn something new and implement it.
             </p>
-            <a href="#" class="btn">Hire me</a>
+            <a href="#contact-section" class="btn">Hire me</a>
             <a href="#"  class="btn" id="dobtn">download CV</a>
        </div>
          </div>
@@ -179,14 +179,19 @@
    <section id="contact-section">
     <h1 class="heading">contact</h1>
      <div class="form">
-      <input type="text" placeholder="name">
-      <input type="email" placeholder="email"> 
-      <input type="text" placeholder="subject">
-      <textarea placeholder="message"></textarea>
-      <button class="contact-btn" >contact</button>
-     </div>
+      <form action="" id="contactForm">
+        <div class="alert" id="done">Your message sent ✅</div>
+      <input type="text" id="name" placeholder="name">
+      <input type="email" id="email" placeholder="email"> 
+      <input type="text" id="subject" placeholder="subject">
+      <textarea id="message" placeholder="message"></textarea>
+      <button class="contact-btn" type="submit" >contact</button>
+    </form> 
+    </div>
    </section>
 </body>
 <script src="./project.js"></script>
 <script src="./app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="./mail.js"></script>
 </html>

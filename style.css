@@ -747,3 +747,19 @@ textarea {
 
     }
 }
+
+
+.alert{
+    width: max-content;
+    background-color: rgb(23, 201, 23);
+    padding: 10px 20px;
+    border-radius: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    margin: auto;
+    display: none;
+
+}
+
