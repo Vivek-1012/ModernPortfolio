@@ -40,7 +40,7 @@ let projectData = [
         tags: '#fullstack, #minorproject, #api'
     },
     {
-        image: 'img/project-6.png',
+        image: 'img/palindrome.png',
         name: 'Palindrome Birthday',
         detail: 'Is your Birthday a Palindrome number, well check it!!',
         github: 'https://github.com/Vivek-1012/birthdaypalindrome.git',
@@ -48,7 +48,7 @@ let projectData = [
         tags: '#css, #minorproject'
     },
     {
-        image: 'img/project-7.png',
+        image: 'img/triangle.png',
         name: 'Fun with Triangles',
         detail: 'Test your triangle knowledge , have fun.',
         github: 'https://github.com/Vivek-1012/FunWithTriangles',
@@ -56,7 +56,7 @@ let projectData = [
         tags: '#javascript, #minorproject'
     },
     {
-        image: 'img/project-8.png',
+        image: 'img/cash.jpg',
         name: 'Cash Manager',
         detail: 'Need help to manage your cash, well this will work.',
         github: 'https://github.com/Vivek-1012/Cash-Register-Manager.git',
@@ -64,7 +64,7 @@ let projectData = [
         tags: '#css, #minorproject'
     },
     {
-        image: 'img/project-7.png',
+        image: 'img/bar1.jpg',
         name: 'Stock profit and loss',
         detail: 'Are you investing in stock market? know about your profit or loss',
         github: 'https://github.com/Vivek-1012/stock-ProfitorLoss.git',
@@ -72,7 +72,7 @@ let projectData = [
         tags: '#javascript, #minorproject'
     },
     {
-        image: 'img/project-8.png',
+        image: 'img/wildlife.jpg',
         name: 'Fun with Animals',
         detail: 'Test your self , if you really know about Animals.',
         github: 'https://github.com/Vivek-1012/funWithAnimals-.git',

@@ -279,10 +279,12 @@ body {
 }
 
 
+
 .card-container {
     width: 100%;
     padding: 0 10%;
     margin-top: -100px;
+    margin-left: 1rem;
 }
 
 .card {
@@ -295,6 +297,7 @@ body {
     border: 1px solid #fcfcfc;
     border-radius: 10px;
     position: relative;
+    
 
 }
 
@@ -727,6 +730,7 @@ textarea {
     /* timeline */
     .card-container{
     width: 100%;
+    margin-left: none;
     }
     .card {
         width: 100%;
@@ -768,3 +772,7 @@ textarea {
     width: 50vh;
 }
 
+.project-image{
+    width: max-content;
+    max-height: max-content;
+}
