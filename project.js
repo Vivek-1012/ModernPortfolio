@@ -16,11 +16,11 @@ let projectData = [
         tags: '#javascript, #css, #major project'
     },
     {
-        image: 'img/project-3.png',
+        image: 'img/m2.jpg',
         name: 'project three',
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
+        github: 'https://github.com/Vivek-1012/GoodMusic.git',
+        live: 'https://k2p9rg.csb.app/',
         tags: '#javascript, #minorproject'
     },
     {
