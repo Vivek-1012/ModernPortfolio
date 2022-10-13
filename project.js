@@ -17,8 +17,8 @@ let projectData = [
     },
     {
         image: 'img/m2.jpg',
-        name: 'project three',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        name: 'Good Music',
+        detail: 'Get to know about my music taste.',
         github: 'https://github.com/Vivek-1012/GoodMusic.git',
         live: 'https://k2p9rg.csb.app/',
         tags: '#javascript, #minorproject'
