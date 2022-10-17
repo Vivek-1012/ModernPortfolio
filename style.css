@@ -599,6 +599,9 @@ textarea {
 
 
     /* about */
+    #about-section{
+        padding: 100px 1m;
+    }
 
     .about-container {
         flex-direction: column;
@@ -634,6 +637,9 @@ textarea {
     .card-container .card::after{
         right: 50% !important;
         z-index: -1;
+    }
+    #timesection{
+        padding: 0;
     }
 }
 
@@ -728,9 +734,11 @@ textarea {
     }
 
     /* timeline */
+    
     .card-container{
     width: 100%;
-    margin-left: none;
+    margin-left: 0;
+    padding-left: 0;
     }
     .card {
         width: 100%;
