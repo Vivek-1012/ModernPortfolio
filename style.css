@@ -784,3 +784,7 @@ textarea {
     width: max-content;
     max-height: max-content;
 }
+
+#inter {
+    text-decoration: none;
+    color: white;
